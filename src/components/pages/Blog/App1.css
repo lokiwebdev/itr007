@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ecf0f3;
+}
+#blog .container {
+  max-width: 90%;
+  margin: auto;
+}
+#blog .d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+#blog .f_flex {
+  display: flex;
+}
+#blog a {
+  text-decoration: none;
+  /* text-decoration: inherit; */
+  color: green;
+}
+#blog a:hover {
+  color: orangered;
+}
+
+#blog li {
+  list-style: none;
+}
+#blog .uppercase {
+  text-transform: uppercase;
+}
+#blog .capitalize {
+  text-transform: capitalize;
+}
+
+#blog button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+#blog .btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+#blog .btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+#blog .btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+#blog .box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+#blog .row,
+.left,
+.right {
+  width: 50%;
+}
+#blog .top {
+  /* margin-top: 80px; */
+  padding-top: 50px;
+}
+#blog .mtop {
+  margin-top: 40px;
+}
+#blog .heading {
+  margin: 50px 0 50px 0;
+}
+#blog .heading h4 {
+  color: #ff014f;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+#blog .heading h1 {
+  font-size: 60px;
+  color: #3c3e41;
+}
+#blog h1 {
+  color: #3c3e41;
+}
+#blog .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+#blog p {
+  color: #3c3e41;
+}
+#blog .text-center {
+  text-align: center;
+}
+#blog .primary_color {
+  color: #ff014f;
+}
+#blog textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+}
